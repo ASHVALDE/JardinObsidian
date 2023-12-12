@@ -4,10 +4,10 @@ html{
   padding: 0px;
 }
 h1{
-  font-size: xx-large;
+  font-size: xx-large !important;
 }
 h2{
-  font-size: x-large;
+  font-size: x-large !important;
 }
 body{
   overflow: hidden!important;
@@ -22,5 +22,5 @@ main{
     padding: 0 30px;
 }
 .navbar{
-  border-bottom: solid 2px black;
+  border-bottom: solid 1px black;
 }
