@@ -5042,7 +5042,7 @@ body {
     background: transparent;
   }
   body:not(.native-scrollbars) * {
-    scrollbar-width: thin;
+    scrollbar-width:auto;
     scrollbar-color: var(--scrollbar-thumb-bg) var(--scrollbar-bg);
   }
   /* Scroll indicator for sidebar containers
