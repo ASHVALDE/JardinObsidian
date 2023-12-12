@@ -6,7 +6,7 @@
 
 ## Proyectos de electrónica
 
-- [[Proyectos Electronica/Debrick K522\|Debrick K522]] || Tutorial de como desbrickear un teclado Kumara k552
+- [[Proyectos Electronica/Debrick K552\|Debrick K552]] || Tutorial de como desbrickear un teclado Kumara k552
 
 
 
