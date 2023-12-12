@@ -71,18 +71,18 @@ https://www.sonix.com.tw/files/1/F1932A4438F3645AE050007F01006657
 6) Quitar los tornillos de la parte de atrás del teclado y empujar la board desde atras
 7) Conectar el contacto metálico señalado en la imagen con la tierra ( El cable negro del cable USB ), Tendrías que conectarlo con el pin que sale del conector
 
-![Pasted image 20231211192631.png](/img/user/Pasted%20image%2020231211192631.png)
+![Pasted image 20231211192631.png](/img/user/Proyectos%20Electronica/Media/Pasted%20image%2020231211192631.png)
 8) Abrir Zadig, conectar el cable haciendo contacto en los dos pines y conectar el USB al computador con los dos pines conectados, una vez conectado ya puedes soltar el cable que conecta la tierra y el pin que activa el modo directo
 
 9) en Zadig buscar el nuevo USB Device que aparece cuando conectamos el teclado
-![Pasted image 20231211193007.png](/img/user/Pasted%20image%2020231211193007.png)
+![Pasted image 20231211193007.png](/img/user/Proyectos%20Electronica/Media/Pasted%20image%2020231211193007.png)
 10) anotan el USB ID y se van la herramienta de SONIX
 
-![Pasted image 20231211193437.png](/img/user/Pasted%20image%2020231211193437.png)
+![Pasted image 20231211193437.png](/img/user/Proyectos%20Electronica/Media/Pasted%20image%2020231211193437.png)
 
 El VID es el primer campo del USB ID y el PID es el segundo campo del USB  ID, entonces tienen que escribirlo en ese campo y poner Load File
 
-![Pasted image 20231211193830.png](/img/user/Pasted%20image%2020231211193830.png)
+![Pasted image 20231211193830.png](/img/user/Proyectos%20Electronica/Media/Pasted%20image%2020231211193830.png)
 
 Seleccionan este chip de la lista, es uno de los últimos, pulsan ok, les abre una pestaña entonces seleccionan el siguiente archivo
 
