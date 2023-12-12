@@ -4,7 +4,7 @@
 
 ## ⚡| Proyectos de electrónica
 
-- [[Proyectos Electronica/Debrick K552\|🧑‍💻]]
+- [[Proyectos Electronica/Debrick K552\|🧑‍💻 Desbrickeo de teclado mecanico Redragon K552]]
 
 
 
