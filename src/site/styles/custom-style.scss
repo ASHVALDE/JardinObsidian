@@ -11,11 +11,13 @@ h2{
 }
 body{
   overflow: hidden!important;
-  padding: 15px;
+  padding: 0px;
+  overflow: hidden;
 }
 main{
   width: 100%;
     height: 80%;
     overflow: auto;
-    margin-top: 35px;
+    margin: 2vh !important;
+    padding: 30px;
 }
