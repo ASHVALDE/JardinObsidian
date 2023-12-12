@@ -6728,7 +6728,7 @@ body {
     padding: 0.1em 0.25em;
   }
   a {
-    color: var(--link-color);
+    color: black;
     outline: none;
     text-decoration-line: var(--link-decoration);
     text-decoration-thickness: var(--link-decoration-thickness);
@@ -6736,7 +6736,7 @@ body {
   }
   @media (hover: hover) {
     a:hover {
-      color: var(--link-color-hover);
+      color: slategray;
       text-decoration-line: var(--link-decoration-hover);
     }
   }
