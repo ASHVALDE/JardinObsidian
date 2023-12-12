@@ -11,3 +11,6 @@
 - [Mi musica 🎶](https://www.youtube.com/playlist?list=PL2158cX_rYQMmGvQ8S5TWqR115nkGIfNL)
 - [Chiguiro 3D ✨](https://youtu.be/yapOzECFbMY?si=4yKr6yd_SgXIJ591)
 
+# Proyectos de código
+
+- Literalmente esta pagina
