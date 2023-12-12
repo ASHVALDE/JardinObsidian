@@ -30,13 +30,14 @@ Antes de comenzar el proceso de flasheo del firmware en tu PC, es crucial contar
 	- [Pagina de Sonix](https://www.sonix.com.tw/article-en-4336-30356) y buscan el SONiX_USB_MCU_ISP_Tool_V2.3.3.1.zip
 	- [Link Directo](https://www.sonix.com.tw/files/1/F1932A4438F3645AE050007F01006657)
 
-Primero tienes que desconectar el teclado del PC, Remover todas las teclas con la pieza plástica que viene en la caja ( o con mucha paciencia si lo botaron como yo ), Buscar los tornillos que hay en la placa y quitarlos, quita los dos tornillos de la parte de atrás del teclado y empuja la placa desde atrás.
+  
+Primero, desconecta el teclado de la compu. Después, quita todas las teclas usando la pieza plástica que viene en la caja (o con cuidado si ya perdiste esa cosa, como me pasó a mí). Busca los tornillos en la placa y sácalos, incluyendo los dos detrás del teclado. Dale un empujón a la placa desde atrás para soltarla.
 
-Busca el contacto metálico que se encuentra a la izquierda arriba del microcontrolador (Señalado en la imagen), posiblemente tengas que raspar un poco porque viene con un esmalte protector y con un cable tienes que conectar este punto con pin de el conector que esta abajo del cable negro del USB.
+Ahora, ubica el contactito metálico en la esquina de arriba a la izquierda del microcontrolador (marcado en la foto). Es probable que tengas que raspar un poco porque suele tener una capa de esmalte. Agarra un cable y conecta ese punto al pin del conector que está abajo del cable negro del USB. ¡Listo!
 
 ![Pasted image 20231211192631.png](/img/user/Proyectos%20Electronica/Media/Pasted%20image%2020231211192631.png)
 
-Abre Zadig y en options selecciona "**List all devices** ", con los dos contactos unidos conecta el teclado al computador, una vez reconocido puedes dejar de conectar los dos puntos. En Zadig busca el nuevo USB Device que aparece cuando conectamos el teclado.
+Abre Zadig y en opciones elige "**Mostrar todos los dispositivos**". Con los dos contactos unidos, conecta el teclado a la computadora. Una vez que lo reconozca, ya puedes dejar de unir los dos puntitos. En Zadig, busca el nuevo dispositivo USB que aparece cuando conectamos el teclado.
 
 ![Pasted image 20231211193007.png](/img/user/Proyectos%20Electronica/Media/Pasted%20image%2020231211193007.png)
 
@@ -51,6 +52,3 @@ En el VID debes poner el primer campo del USB ID y en el PID debes poner el segu
 Seleccionan este chip de la lista ( El SN32F24xB ), es uno de los últimos; pulsan ok y les va a abrir una pestaña para seleccionar un archivo entonces seleccionan el firmware del teclado (Redragon_K552_RGB_Rev2_240B.bin)
 
 Una vez lo carguen, el teclado debería reiniciarse y su k552 quedaría totalmente reseteado de fabrica y ya lo pueden volver a armar
-
-> [!question]- V > I'm good
-a me escriben a mi Discord > AshValde
