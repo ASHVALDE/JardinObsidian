@@ -2,6 +2,8 @@
 {"dg-publish":true,"permalink":"/proyectos-electronica/debrick-k552/"}
 ---
 
+# Debrick K552
+
 Hola, probablemente estén aquí por una de dos, o tienen curiosidad y estaban viendo mi pagina, o porque como yo les gusta joder con electrónica, y mientras estaban intentando flashear un firmware a sus teclados lo terminaron brickeando, en cualquiera de los casos les quiero explicar un poco que hice y porque:
 ### ¿ Teclados Mecanicos ?
 
