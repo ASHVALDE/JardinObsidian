@@ -30,43 +30,27 @@ Antes de comenzar el proceso de flasheo del firmware en tu PC, es crucial contar
 	- [Pagina de Sonix](https://www.sonix.com.tw/article-en-4336-30356) y buscan el SONiX_USB_MCU_ISP_Tool_V2.3.3.1.zip
 	- [Link Directo](https://www.sonix.com.tw/files/1/F1932A4438F3645AE050007F01006657)
 
+Primero tienes que desconectar el teclado del PC, Remover todas las teclas con la pieza plástica que viene en la caja ( o con mucha paciencia si lo botaron como yo ), Buscar los tornillos que hay en la placa y quitarlos, quita los dos tornillos de la parte de atrás del teclado y empuja la placa desde atrás.
 
-
-
-1) Desconectar el teclado del computador xd 
-2) Instalar Zadig
-
-3) Instalar la herramienta para modificar el firmware del kumara
-
-https://www.sonix.com.tw/article-en-4336-30356 - Buscan el 
-SONiX_USB_MCU_ISP_Tool_V2.3.3.1.zip
-
-Si no lo encuentran el link directo es 
-
-https://www.sonix.com.tw/files/1/F1932A4438F3645AE050007F01006657
-
-
-4) Remover todas las teclas con la pieza plástica que viene en la caja ( o con mucha paciencia si lo botaron como yo )
-5) Buscar los tornillos que hay en la placa y quitarlos
-6) Quitar los tornillos de la parte de atrás del teclado y empujar la board desde atras
-7) Conectar el contacto metálico señalado en la imagen con la tierra ( El cable negro del cable USB ), Tendrías que conectarlo con el pin que sale del conector
+Busca el contacto metálico que se encuentra a la izquierda arriba del microcontrolador (Señalado en la imagen), posiblemente tengas que raspar un poco porque viene con un esmalte protector y con un cable tienes que conectar este punto con pin de el conector que esta abajo del cable negro del USB.
 
 ![Pasted image 20231211192631.png](/img/user/Proyectos%20Electronica/Media/Pasted%20image%2020231211192631.png)
-8) Abrir Zadig, conectar el cable haciendo contacto en los dos pines y conectar el USB al computador con los dos pines conectados, una vez conectado ya puedes soltar el cable que conecta la tierra y el pin que activa el modo directo
 
-9) en Zadig buscar el nuevo USB Device que aparece cuando conectamos el teclado
+Abre Zadig y en options selecciona "**List all devices** ", con los dos contactos unidos conecta el teclado al computador, una vez reconocido puedes dejar de conectar los dos puntos. En Zadig busca el nuevo USB Device que aparece cuando conectamos el teclado.
+
 ![Pasted image 20231211193007.png](/img/user/Proyectos%20Electronica/Media/Pasted%20image%2020231211193007.png)
-10) anotan el USB ID y se van la herramienta de SONIX
+
+anota el USB ID y ve a la herramienta de SONIX
 
 ![Pasted image 20231211193437.png](/img/user/Proyectos%20Electronica/Media/Pasted%20image%2020231211193437.png)
 
-El VID es el primer campo del USB ID y el PID es el segundo campo del USB  ID, entonces tienen que escribirlo en ese campo y poner Load File
+En el VID debes poner el primer campo del USB ID y en el PID debes poner el segundo campo del USB  ID y poner Load File
 
 ![Pasted image 20231211193830.png](/img/user/Proyectos%20Electronica/Media/Pasted%20image%2020231211193830.png)
 
-Seleccionan este chip de la lista, es uno de los últimos, pulsan ok, les abre una pestaña entonces seleccionan el siguiente archivo
-
-https://github.com/SonixQMK/Mechanical-Keyboard-Database/blob/main/stockFWs/Redragon/240B/Redragon_K552_RGB_Rev2_240B.bin
+Seleccionan este chip de la lista ( El SN32F24xB ), es uno de los últimos; pulsan ok y les va a abrir una pestaña para seleccionar un archivo entonces seleccionan el firmware del teclado (Redragon_K552_RGB_Rev2_240B.bin)
 
 Una vez lo carguen, el teclado debería reiniciarse y su k552 quedaría totalmente reseteado de fabrica y ya lo pueden volver a armar
-> [!question]- How are you? > I'm good
+
+> [!question]- V > I'm good
+a me escriben a mi Discord > AshValde
