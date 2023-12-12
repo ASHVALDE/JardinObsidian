@@ -57,7 +57,7 @@ button {
 }
 
 .theme-light {
-    background: #C0C0C0;
+    background: white;
     color: black;
     font-family: var(--font-default);
 }
@@ -67,7 +67,7 @@ a.is-unresolved {
 }
 a {
     text-decoration: underline;
-    color: var(--text-accent);
+    color: black;
 }
 
 .font-bg {
