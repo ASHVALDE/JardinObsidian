@@ -41,7 +41,7 @@ En resumen los teclados mecánicos funcionan distinto y tienen muchas ventajas c
 
 Cuando se tiene un microcontrolador programable como es el caso de los Arduinos, teclados o aparatos con electrónica "inteligente", estos obligatoriamente tienen un firmware
 
-"El firmware o soporte lógico inalterable es un **programa informático que establece la lógica de más bajo nivel que controla los circuitos electrónicos de un dispositivo de cualquier tipo**. " - https://es.wikipedia.org/wiki/Firmware
+"**El firmware o soporte lógico inalterable es un programa informático que establece la lógica de más bajo nivel que controla los circuitos electrónicos de un dispositivo de cualquier tipo.**" - https://es.wikipedia.org/wiki/Firmware
 
 Cuando se realiza una modificación en el firmware se corre el riesgo de dañar permanentemente el dispositivo y el Kumara k552 no es una excepción, esto puede suceder porque se modifica el firmware con la lógica de otro dispositivo, porque no esta bien programado el nuevo firmware o porque no se termina de quemar.
 
@@ -86,6 +86,6 @@ El VID es el primer campo del USB ID y el PID es el segundo campo del USB  ID, e
 
 Seleccionan este chip de la lista, es uno de los últimos, pulsan ok, les abre una pestaña entonces seleccionan el siguiente archivo
 
-![[Proyectos Electronica/Media/Redragon_K552_RGB_Rev2_240B.bin]]
+https://github.com/SonixQMK/Mechanical-Keyboard-Database/blob/main/stockFWs/Redragon/240B/Redragon_K552_RGB_Rev2_240B.bin
 
 Una vez lo carguen, el teclado debería reiniciarse y su k552 quedaría totalmente reseteado de fabrica y ya lo pueden volver a armar
